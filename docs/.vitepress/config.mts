@@ -11,8 +11,8 @@ export default defineConfig({
   lang: 'zh-CN',
 
   head: [
-    ['meta', { name: 'theme-color', content: '#1677ff' }]
-    ['link', { rel: 'icon', href: '/logo.png' }]
+    ['meta', { name: 'theme-color', content: '#1677ff' }],
+    ['link', { rel: 'icon', href: '/docs/logo.png' }]
   ],
 
   themeConfig: {
