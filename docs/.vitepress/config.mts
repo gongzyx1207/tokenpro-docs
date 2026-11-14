@@ -12,6 +12,7 @@ export default defineConfig({
 
   head: [
     ['meta', { name: 'theme-color', content: '#1677ff' }]
+    ['link', { rel: 'icon', href: '/logo.png' }]
   ],
 
   themeConfig: {
@@ -44,13 +45,8 @@ export default defineConfig({
       ]
     },
 
-    socialLinks: [
-      { icon: 'github', link: 'https://github.com/gongzyx1207/tokenpro-docs' }
-    ],
-
     footer: {
-      message: 'Connect · Access · Innovate',
-      copyright: 'Copyright © 2026 TokenPro'
+      message: 'Connect · Access · Innovate',       copyright: 'Copyright © 2026 TokenPro'
     },
 
     search: {
